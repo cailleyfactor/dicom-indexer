@@ -11,6 +11,7 @@ The utility can:
 - Allow flexible querying using SQL via DuckDB
 
 A write up of design choices is included in the write_up directory.
+Sample dicom files are included in tests/sample_data.
 
 ---
 
@@ -23,7 +24,7 @@ A write up of design choices is included in the write_up directory.
     cd dicom-indexer
     ```
 
-2. Create and activate a virtual environment (recommended):
+2. Create and activate a virtual environment:
 
     ```bash
     python3 -m venv .venv
