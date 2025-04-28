@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# pytest cache
+.pytest_cache/
+
+# Parquet output files
+tests/output_index/
+output_index/
+
+# MacOS system files
+.DS_Store
